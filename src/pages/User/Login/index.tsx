@@ -46,6 +46,7 @@ const useStyles = createStyles(({ token }) => {
       flexDirection: 'column',
       height: '100vh',
       overflow: 'auto',
+      paddingBlock:90,
       backgroundImage:
         "url('https://mdn.alipayobjects.com/yuyan_qk0oxh/afts/img/V-_oS6r-i7wAAAAAAAAAAAAAFl94AQBr')",
       backgroundSize: '100% 100%',
@@ -172,10 +173,12 @@ const Login: React.FC = () => {
 
         }
           contentStyle={{
-            minWidth: 280,
+            minWidth: 100,
             maxWidth: '75vw',
+
+
           }}
-          logo={<img alt="logo" src="/bi.svg" />}
+          logo={<img alt="logo" src="/bi.svg  " />}
           title="Auto BI"
           // intl.formatMessage({ id: 'pages.layouts.userLayout.title' })
           subTitle={null}
